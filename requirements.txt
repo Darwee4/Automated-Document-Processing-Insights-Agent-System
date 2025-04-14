@@ -1,0 +1,51 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# LangGraph & LangChain
+langgraph==0.0.40
+langchain==0.0.346
+langchain-community==0.0.13
+langchain-core==0.1.23
+langchain-openai==0.0.5
+langchain-anthropic==0.0.4
+
+# OCR & Document Processing
+pytesseract==0.3.10
+pillow==10.1.0
+pdf2image==1.16.3
+opencv-python==4.8.1.78
+python-magic==0.4.27
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+motor==3.3.2
+pymongo==4.6.1
+alembic==1.12.1
+
+# Production Features
+loguru==0.7.2
+tenacity==8.2.3
+prometheus-client==0.19.0
+pydantic-extra-types==2.1.0
+guardrails-ai==0.3.0
+
+# Testing & Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+python-dotenv==1.0.0
+black==23.11.0
+isort==5.13.2
+mypy==1.7.1
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.1
+python-magic-bin==0.4.14
